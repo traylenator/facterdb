@@ -1,0 +1,131 @@
+{
+  "gem_version": "~> 2.3.0",
+  "architecture": "x86_64",
+  "augeasversion": "1.12.0",
+  "kernel": "Linux",
+  "blockdevice_sda_size": 10737418240,
+  "blockdevice_sda_vendor": "ATA",
+  "blockdevice_sda_model": "VBOX HARDDISK",
+  "blockdevices": "sda",
+  "domain": "example.com",
+  "ec2_metadata": {
+    "ami-id": "ami-00004381",
+    "ami-launch-index": "0",
+    "ami-manifest-path": "FIXME",
+    "block-device-mapping": {
+      "ami": "vda",
+      "root": "/dev/vda"
+    },
+    "hostname": "facterdb7.example.ch",
+    "instance-action": "none",
+    "instance-id": "i-000303b0",
+    "instance-type": "m2.medium",
+    "local-hostname": "facterdb7.example.ch",
+    "local-ipv4": "10.0.0.22",
+    "placement": {
+      "availability-zone": "cern-geneva-b"
+    },
+    "public-hostname": "facterdb7.example.ch",
+    "public-ipv4": null,
+    "public-keys": {
+      "0": {
+        "openssh-key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyrFhTrsSA2xrCoRLUiSTxxnLFvyk1ehZf4Hot3zYCcM9ZN3Umttxc6BAV7l4Lzj91EnQZMxZzxnfuA3YO5gEU1p8VWVDJ3NtrvJBGJiA57YNeZZeiW1D+SpvsyfyioyEgX0DysRrZ6wZnbOBOGkElOBJuHsqZDBqb7J1vvbBRPGccviTMNvX2cI99v4EaUSzIBqyYP+ScQQXd9o1yqtqh/kpxGfVV4OP1GY/TBqiIkFjE9DqKlk+Wqwp41Fnx8sWuxqjqhjwIpg54eGclXyNa2bGjMdKVjOVp88Fpk8TXwdQ/qYQtMByB+9YmPIJQA4PPRr7B73ksA8ecB3M9TWrZ foobar@aiadm73.example.ch"
+      }
+    },
+    "reservation-id": "r-rahamwwa",
+    "security-groups": "default"
+  },
+  "virtual": "kvm",
+  "is_virtual": true,
+  "hardwaremodel": "x86_64",
+  "operatingsystem": "CentOS",
+  "os": {
+    "name": "CentOS",
+    "family": "RedHat",
+    "release": {
+      "major": "8",
+      "minor": "0",
+      "full": "8.0.1905"
+    }
+  },
+  "facterversion": "2.3.0",
+  "filesystems": "xfs",
+  "fqdn": "foo.example.com",
+  "gid": "root",
+  "hardwareisa": "x86_64",
+  "hostname": "foo",
+  "id": "root",
+  "interfaces": "",
+  "kernelmajversion": "4.18",
+  "kernelrelease": "4.18.0-80.el8.x86_64",
+  "kernelversion": "4.18.0",
+  "boardmanufacturer": "Oracle Corporation",
+  "boardproductname": "VirtualBox",
+  "boardserialnumber": "0",
+  "bios_vendor": "innotek GmbH",
+  "bios_version": "VirtualBox",
+  "bios_release_date": "12/01/2006",
+  "manufacturer": "innotek GmbH",
+  "productname": "VirtualBox",
+  "serialnumber": "0",
+  "uuid": "fb357bad-23ec-4dcb-b043-900bdaf10b95",
+  "type": "Other",
+  "memorysize": "477.41 MB",
+  "memoryfree": "304.95 MB",
+  "swapsize": "2.00 GB",
+  "swapfree": "1.99 GB",
+  "swapsize_mb": "2048.00",
+  "swapfree_mb": "2037.23",
+  "memorysize_mb": "477.41",
+  "memoryfree_mb": "304.95",
+  "operatingsystemmajrelease": "8",
+  "operatingsystemrelease": "8.0.1905",
+  "osfamily": "RedHat",
+  "partitions": {
+    "sda1": {
+      "uuid": "d5f5b677-6350-416d-b1d3-47d723d94d88",
+      "size": "20969472",
+      "mount": "/",
+      "filesystem": "xfs"
+    }
+  },
+  "path": "/home/vagrant/vendor/bundler/ruby/2.5.0/bin:/opt/puppetlabs/puppet/bin:/opt/puppetlabs/bin:/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin",
+  "physicalprocessorcount": 1,
+  "processors": {
+    "models": [
+      "Intel Core Processor (Broadwell, IBRS)"
+    ],
+    "count": 1,
+    "physicalcount": 1
+  },
+  "processor0": "Intel Core Processor (Broadwell, IBRS)",
+  "processorcount": 1,
+  "ps": "ps -ef",
+  "rubyplatform": "x86_64-linux",
+  "rubysitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.5.0",
+  "rubyversion": "2.5.3",
+  "selinux": true,
+  "selinux_enforced": true,
+  "selinux_policyversion": "31",
+  "selinux_current_mode": "enforcing",
+  "selinux_config_mode": "enforcing",
+  "selinux_config_policy": "unknown",
+  "sshrsakey": "AAAAB3NzaC1yc2EAAAADAQABAAABAQC4cXyrlNfTJRw25dUBh6gjU/sot63cbkZ1ciaRAgixd+t9W/WgDdgpxeNO07VRkibSWz/5NwiiXJbhgLPbl4zQ3zhWDfJ6U82dg+o6zBIlMdTA+VEmTRG1bsDKfmyz92mauWErX5yliUoXfllPtaCGi1lu4UDVMzYCSRofdoR9McLZxMYwN2JQVbEOKUfF26dUDGXrhriS8yCLyof05PSv9KDzm4gF7TxR/Ts/P10dRY8Vr0VULd5+KqlERjZccRPVLd2Tddv+xGxKoz4GScnqx+cZngcoBp6v5qiMpQfHzBQXD59mCXYyNEnYRbhZaF+ArlNT1XWVyGFhWsu0Hmzz",
+  "sshfp_rsa": "SSHFP 1 1 a5be1e1fc086f30d21aa7aa5f33704004d456c21\nSSHFP 1 2 e4be238545e025ec1d16bbf0c8e989f40bce9a5dedbf53a068885e3578b55a51",
+  "sshecdsakey": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBxG1i71tlzKg5flLX7etVmghHA4L93HYg+eEIHG4euR1HUoPPwvhmlpqRe0lnFcIa3vRJ/CAFrKiNuvvPJKuMM=",
+  "sshfp_ecdsa": "SSHFP 3 1 284279576bda6c70b91811c5c3056a5a6bfd3de6\nSSHFP 3 2 e6c3ba8c83b29ba0da1df6168f49a97b7c9b72d75fa04acf901610d61ee706f5",
+  "sshed25519key": "AAAAC3NzaC1lZDI1NTE5AAAAILnAT/Q1QWT5+h/wx1iBuP/yxKTZQY6bLc796kUvn00s",
+  "sshfp_ed25519": "SSHFP 4 1 627efb59edd86d5eaea21739c2935da61d34185f\nSSHFP 4 2 62df7001944b399f6caca4f8ab2eccc99ed85e720c03033ba60b81c3fd2f569e",
+  "system_uptime": {
+    "seconds": 334,
+    "hours": 0,
+    "days": 0,
+    "uptime": "0:05 hours"
+  },
+  "timezone": "UTC",
+  "uniqueid": "007f0100",
+  "uptime": "0:05 hours",
+  "uptime_days": 0,
+  "uptime_hours": 0,
+  "uptime_seconds": 334
+}
